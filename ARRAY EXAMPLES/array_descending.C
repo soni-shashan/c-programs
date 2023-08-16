@@ -24,7 +24,7 @@ void print_array(int *arr,int num){
 
 int main () {
     system("cls");
-    int nums[5]={90,33,94,11,48};
+    int nums[5]={5,3,14,57,37};
     int size=5;
     print_array(nums,size);
     sort(nums,size);
