@@ -26,8 +26,10 @@ int main () {
     system("cls");
     int nums[5]={5,3,14,57,37};
     int size=5;
+    printf("Acctual Array Is : ");
     print_array(nums,size);
     sort(nums,size);
+    printf("Sorted Descending Array Is : ");
     print_array(nums,size);
     getch();
     system("cls");
